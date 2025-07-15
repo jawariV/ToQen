@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const { user, signOut } = useAuth();
 
   const navigation = [
-    { name: 'Home', href: '/', show: true },
+    { name: 'Homee', href: '/', show: true },
     { name: 'Dashboard', href: '/dashboard', show: user?.role === 'patient' },
     { name: 'Book Appointment', href: '/book', show: !user || user.role === 'patient' },
     { name: 'Track Queue', href: '/track', show: !user || user.role === 'patient' },
