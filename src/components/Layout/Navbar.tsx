@@ -92,6 +92,7 @@ const Navbar: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 rounded-lg mt-2">
+              {user && <NotificationSystem />}
               {navigation.map((item) =>
                 item.show ? (
                   <Link
@@ -111,7 +112,6 @@ const Navbar: React.FC = () => {
               
               {user ? (
                 <button
-                  <NotificationSystem />
                   onClick={handleSignOut}
                   className="w-full text-left block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-red-600 hover:bg-red-50 transition-colors"
                 >
