@@ -32,8 +32,8 @@ const Footer: React.FC = () => {
           <div className="col-span-1">
             <h3 className="text-sm font-semibold text-gray-900 mb-4">Support</h3>
             <ul className="space-y-2">
-              <li className="text-gray-600 text-sm">Email: support@toqen.com</li>
-              <li className="text-gray-600 text-sm">Phone: +1 (555) 123-4567</li>
+              <li className="text-gray-600 text-sm">Email: yash@toqen.in</li>
+              <li className="text-gray-600 text-sm">Phone: +91 0123456789 </li>
               <li className="text-gray-600 text-sm">Hours: 24/7 Support</li>
             </ul>
           </div>
@@ -42,12 +42,12 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-200 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 text-sm">
-              © 2024 ToQen. All rights reserved.
+              © 2025 ToQen. All rights reserved.
             </p>
             <div className="flex items-center space-x-1 mt-2 md:mt-0">
               <span className="text-gray-600 text-sm">Made with</span>
               <Heart className="h-4 w-4 text-red-500" />
-              <span className="text-gray-600 text-sm">for better healthcare</span>
+              <span className="text-gray-600 text-sm"> by Yash for better healthcare</span>
             </div>
           </div>
         </div>
